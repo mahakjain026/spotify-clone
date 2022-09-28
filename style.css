@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    height: 40px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.description{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0 5%;
+    
+}
+
+.songsPlayer{
+ display: flex;
+ justify-content: center;
+}
+
+#masterPlay{
+    cursor: pointer;
+}
+
+.slider{
+    margin: 5%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 55%;  
+ 
+}
+
+.withoutMe{
+    width: 85%;
+    height:78%;
+    padding:5%;
+}
+
+.adjustor{
+    width: 80%;
+    /* height: 2%; */
+    cursor: pointer;
+
+}
+
+.icons{
+    padding-top: 2%;
+    font-size: 40px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="header" id="header">
+      <div class="logo" id="logo">
+        <img src="/spotify_logo.png" alt="Spotify" width="40" height="40" />
+        <h3>Spotify</h3>
+      </div>
+      <div class="description" id="description">
+        <p>Home</p>
+        <p>About</p>
+      </div>
+    </div>
+
+    <div class="songsPlayer" id="songsPlayer">
+      <div class="slider" id="slider">
+        <img
+          src="/withoutposter.png"
+          alt="Without me"
+          class="withoutMe"
+          id="withoutMe"
+        />
+
+        <input type="range" id="adjustor" class="adjustor" min="0" value="0" max="100" />
+        <div class="icons" id="ions">
+          <span class="currenttime"></span>
+          <i class="fas fa-regular fa-backward"></i>
+          <i class="far fa-regular fa-circle-play " id="masterPlay"></i>
+          <i class="fas fa-light fa-forward"></i>
+          <span>00:00</span>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/3a851662b5.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="/index.js"></script>
+</html>
